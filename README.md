@@ -21,6 +21,10 @@ You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-res
 |:---:|:---:|
 | [![Cover Letter(Traditional)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-1.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf) |
 
+## Built with TravisCI
+
+This project is built by TravisCI.
+
 ## How to Use
 
 ### Requirements
