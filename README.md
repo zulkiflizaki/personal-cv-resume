@@ -1,5 +1,5 @@
 # Personal CV and Resume
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/) [![Build Status](https://travis-ci.com/zulkiflizaki/personal-cv-resume.svg?branch=master)](https://travis-ci.com/zulkiflizaki/personal-cv-resume)
 
 This is a repository of my personal **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** based on a LaTeX template from [**Awesome CV**](https://github.com/posquit0/Awesome-CV). This LaTeX template is inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv), which provide easy LaTeX template customization, especially since it is really written by a clean, semantic markup.
 
@@ -23,7 +23,7 @@ You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-res
 
 ## Built with TravisCI
 
-This project is built by TravisCI.
+This project is built using TravisCI. Instead of using GitHub Action, I built this project using TravisCI based on tutorial from [**this repository**](https://github.com/PHPirates/travis-ci-latex-pdf).
 
 ## How to Use
 
