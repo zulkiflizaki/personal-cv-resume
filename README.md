@@ -8,40 +8,23 @@ This is a repository of my personal **CV(Curriculum Vitae)**, **Résumé** or **
 
 ### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume.pdf)
+You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/resume.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-1.png)](hhttps://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume.pdf) |
+| [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/resume-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/resume-1.png)](hhttps://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/resume.pdf) |
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf)
+You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/coverletter.pdf)
 
 | Without Sections | With Sections |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-1.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf) |
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/coverletter-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/coverletter-1.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/outputs/coverletter.pdf) |
 
 ## Built with TravisCI
 
 This project is built using TravisCI. Instead of using GitHub Action, I built this project using TravisCI based on tutorial from [**this repository**](https://github.com/PHPirates/travis-ci-latex-pdf).
-
-## How to Use
-
-### Requirements
-
-A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
-
-### Usage
-
-At a command prompt, run
-
-```bash
-xelatex {your-cv}.tex
-```
-
-This should result in the creation of ``{your-cv}.pdf``
 
 ## Credit
 
