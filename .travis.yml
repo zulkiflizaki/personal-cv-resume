@@ -12,10 +12,6 @@ before_install:
  - fc-cache -f -v
 
 install:
-  - mkdir ./tex/texlive
-  - 4-texlive
-  - 4-texlive
-  - 4-texlive
   - source ./tex/texlive/texlive_install.sh
 
 cache:
