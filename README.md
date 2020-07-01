@@ -1,5 +1,5 @@
 # Personal CV and Resume
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 
 This is a repository of my personal **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** based on a LaTeX template from [**Awesome CV**](https://github.com/posquit0/Awesome-CV). This LaTeX template is inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv), which provide easy LaTeX template customization, especially since it is really written by a clean, semantic markup.
 

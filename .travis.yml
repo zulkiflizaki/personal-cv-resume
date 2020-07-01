@@ -23,10 +23,14 @@ cache:
 before_script: cd $TRAVIS_BUILD_DIR/
 script:
   # Texliveonfly will download packages automatically
-  - texliveonfly *.tex
+  - texliveonfly cv.tex
+  - texliveonfly resume.tex
+  - texliveonfly coverletter.tex
 
   # You can use latexmk to automatically handle bibtex and references (recommended)
-  - latexmk -pdf *.tex
+  - latexmk -pdf cv.tex
+  - latexmk -pdf resume.tex
+  - latexmk -pdf coverletter.tex
 
   # But you could use any other compiler as well instead of latexmk. Example:
 #  - pdflatex main.tex
