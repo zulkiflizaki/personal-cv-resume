@@ -11,7 +11,7 @@ You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-res
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-1.g)](hhttps://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/resume.pdf) |
+| [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-1.png)](hhttps://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/resume.pdf) |
 
 #### Cover Letter
 

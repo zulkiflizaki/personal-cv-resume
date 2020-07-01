@@ -23,9 +23,10 @@ cache:
 before_script: cd $TRAVIS_BUILD_DIR/
 script:
   # Texliveonfly will download packages automatically
-  - texliveonfly main.tex
+  - texliveonfly *.tex
+
   # You can use latexmk to automatically handle bibtex and references (recommended)
-  - latexmk -pdf main.tex
+  - latexmk -pdf *.tex
 
   # But you could use any other compiler as well instead of latexmk. Example:
 #  - pdflatex main.tex
@@ -37,6 +38,6 @@ script:
 #  - texliveonfly --arguments='-shell-escape' main.tex
 
 ## Uncomment the following lines to see the packages installed in travis
-#after_script:
-#  - export PATH=/tmp/texlive/bin/x86_64-linux:$PATH
-#  - tlmgr list --only-installed | grep -oP 'i \K.+?(?=:)'
+after_script:
+  - export PATH=/tmp/texlive/bin/x86_64-linux:$PATH
+  - tlmgr list --only-installed | grep -oP 'i \K.+?(?=:)'
