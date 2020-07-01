@@ -13,4 +13,4 @@ collection-fontsrecommended
 luaotfload
 
 # texliveonfly does not detect the following packages automatically
-minted fvextra upquote lineno xstring framed caption enumitem ragged2e
+minted fvextra upquote lineno xstring framed caption enumitem everysel xcolor xifthen ifmtarg etoolbox setspace fontspec unicode-math lualatex-math sourcesanspro xkeyval tcolorbox
