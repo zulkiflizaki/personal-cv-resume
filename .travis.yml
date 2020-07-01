@@ -29,9 +29,9 @@ script:
   - texliveonfly coverletter.tex --compiler=lualatex
 
   # You can use latexmk to automatically handle bibtex and references (recommended)
-  - latexmk -pdflua -output-directory outputs cv.tex
-  - latexmk -pdflua -output-directory outputs resume.tex
-  - latexmk -pdflua -output-directory outputs coverletter.tex
+  - latexmk -pdflua -jobname=/outputs/cv.pdf cv.tex
+  - latexmk -pdflua -jobname=/outputs/resume.pdf resume.tex
+  - latexmk -pdflua -jobname=/outputs/coverletter.pdf coverletter.tex
 
   # But you could use any other compiler as well instead of latexmk. Example:
 #  - pdflatex main.tex
