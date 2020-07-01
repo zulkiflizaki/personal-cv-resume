@@ -7,19 +7,19 @@ This is a repository of my personal **CV(Curriculum Vitae)**, **Résumé** or **
 
 ### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/resume.pdf)
+You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-1.png)](hhttps://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/resume.pdf) |
+| [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume-1.png)](hhttps://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/resume/resume.pdf) |
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/coverletter.pdf)
+You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf)
 
 | Without Sections | With Sections |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-1.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/coverletter.pdf) |
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-0.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter-1.png)](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-resume/master/sources/coverletter/coverletter.pdf) |
 
 ## How to Use
 
