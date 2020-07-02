@@ -2,66 +2,37 @@ language: generic
 
 dist: bionic
 
-## Uncomment the following lines if you require extra dependencies
 before_install:
-# - sudo apt-get install ghostscript # If you use latex > dvips > ps2pdf
-# - sudo apt-get install python-pygments # If you use the minted package
-# If you use custom fonts:
- - mkdir $HOME/.fonts
- - cp -a $TRAVIS_BUILD_DIR/fonts/. $HOME/.fonts/
- - fc-cache -f -v
+- mkdir $HOME/.fonts
+- cp -a $TRAVIS_BUILD_DIR/fonts/. $HOME/.fonts/
+- fc-cache -f -v
 
 install:
-  - source ./texlive/texlive_install.sh
+- source ./texlive/texlive_install.sh
 
 cache:
   directories:
-    - /tmp/texlive
-    - $HOME/.texlive
+  - "/tmp/texlive"
+  - "$HOME/.texlive"
 
-# Change working directory so including files will work
-before_script: cd $TRAVIS_BUILD_DIR/
+  before_script: cd $TRAVIS_BUILD_DIR/
 
 script:
-  # Texliveonfly will download packages automatically
-  - texliveonfly cv.tex --compiler=lualatex
-  - texliveonfly resume.tex --compiler=lualatex
-  - texliveonfly coverletter.tex --compiler=lualatex
+- texliveonfly cv.tex --compiler=lualatex
+- texliveonfly resume.tex --compiler=lualatex
+- texliveonfly coverletter.tex --compiler=lualatex
+- latexmk -pdflua -output-directory="outputs/" cv.tex
+- latexmk -pdflua -output-directory="outputs/" resume.tex
+- latexmk -pdflua -output-directory="outputs/" coverletter.tex
 
-  # You can use latexmk to automatically handle bibtex and references (recommended)
-  - latexmk -pdflua -output-directory="outputs/" cv.tex
-  - latexmk -pdflua -output-directory="outputs/" resume.tex
-  - latexmk -pdflua -output-directory="outputs/" coverletter.tex
-
-  # But you could use any other compiler as well instead of latexmk. Example:
-#  - pdflatex main.tex
-#  - bibtex main
-#  - pdflatex main.tex
-#  - pdflatex main.tex # Compile twice to fix references
-
-  # You can also pass arguments to texliveonfly:
-#  - texliveonfly --arguments='-shell-escape' main.tex
-
-## Uncomment the following lines to see the packages installed in travis
-#after_script:
-#  - export PATH=/tmp/texlive/bin/x86_64-linux:$PATH
-#  - tlmgr list --only-installed | grep -oP 'i \K.+?(?=:)'
-
-#deploy:
-#  provider: releases
-#  api_key:
-#    secure: 7daf61ed16e16815d55bdff78a8dd082641f2826
-#  file: "FILE TO UPLOAD"
-#  skip_cleanup: true
-#  on:
-#    tags: true
-
-after_success:
-  - ls -lh outputs/* # Assuming you have some files in out/ that you would like to upload
-  - wget -c https://github.com/probonopd/uploadtool/raw/master/upload.sh
-  - bash upload.sh outputs/*
-
-branches:
-    except:
-    - # Do not build tags that we create when we upload to GitHub Releases
-    - /^(?i:continuous.*)$/
+deploy:
+  provider: releases
+  api_key:
+    secure: s3P13aqVUeQW0PVQVDgY8otBrZ36IXbzYVSRqoZNtF9l35HjOSaXp9+Pa8AEPjaArqiRXO/M9+D/iQTrTvfPJSrMo6O/l5C2x0honCLgWiIMe57Y2tRHFEQLnSAhrQ+VbvEI79atj8m6JNRy2vc80L6ortpUXTBHRKRDysL/9kZkQ0x04MZUCoPtluQrIGbfjrMpUmZNmrxbDRCrTCRRlhRYCVvoXnLDlU+mBfLhBRY+XbS3700tCdZfftLHJSuznE0CqZC9xbAF1c/vViMHeldIB5IVXLE1vpu1yFvEu1Gpo+Ip8bF8maDTopYNRxV9mCX7UaW0qMLCCP6kJ6BjiG5d2NXNWNOtG4hxO2+g1t5UeZLwq1O8eduzamiMgJS7vybirVE8HPrlWxMBzbFlFkub+I9CBhTue/ra7z1Pal0LRXXNWUNopVz+/H6wIUDC59GHqptYFS04BAeZmjZlZV70Acs2dsMmelV7SsYZHtuGQolrwosjWXk16oqhLuyXDkQfxVUz0Zh0uZAE1VfQaXdcJdgH4migdb1q7A3vGDRPuFO1dQv89DpTgtzwaI3ihaNcmIlfmGl1qXraacRLGnSReOybzpWDvSkxks0SdfeF+dPtBv0au1LUWiwEUD922Tb8vCZ+jCdeXsTSwpVkn8FhABcBXcYR247skM+OViI=
+  file:
+    - ./outputs/cv.pdf
+    - ./outputs/resume.pdf
+    - ./outputs/coverletter.pdf
+  on:
+    repo: zulkiflizaki/personal-cv-resume
+  skip_cleanup: 'true'
