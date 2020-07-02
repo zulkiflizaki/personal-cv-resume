@@ -24,9 +24,9 @@ before_script: cd $TRAVIS_BUILD_DIR/
 
 script:
   # Texliveonfly will download packages automatically
-  - texliveonfly ./sources/cv.tex --compiler=lualatex
-  - texliveonfly ./sources/resume.tex --compiler=lualatex
-  - texliveonfly ./sources/coverletter.tex --compiler=lualatex
+  - texliveonfly cv.tex --compiler=lualatex
+  - texliveonfly resume.tex --compiler=lualatex
+  - texliveonfly coverletter.tex --compiler=lualatex
 
   # You can use latexmk to automatically handle bibtex and references (recommended)
   - latexmk -pdflua -output-directory="./outputs/" cv.tex
