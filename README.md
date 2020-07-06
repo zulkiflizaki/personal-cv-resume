@@ -26,6 +26,12 @@ You can see [PDF](https://raw.githubusercontent.com/zulkiflizaki/personal-cv-res
 
 This project is built using TravisCI. Instead of using GitHub Action, I built this project using TravisCI based on tutorial from [**this repository**](https://github.com/PHPirates/travis-ci-latex-pdf).
 
+## License
+
+Provided under the terms of the [MIT License](https://github.com/zulkiflizaki/personal-cv-resume/blob/master/LICENSE).
+
+Copyright © 2020, [Zulkifli Zaki](http://www.zulkiflizaki.my).
+
 ## Credit
 
 [**Awesome CV**](https://github.com/posquit0/Awesome-CV) - LaTeX template for your outstanding job application.
