@@ -35,4 +35,6 @@ deploy:
     - ./outputs/coverletter.pdf
   on:
     repo: zulkiflizaki/personal-cv-resume
+    tags: true
+    branch: master
   skip_cleanup: 'true'
